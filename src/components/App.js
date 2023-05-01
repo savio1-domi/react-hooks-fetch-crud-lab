@@ -5,6 +5,9 @@ import QuestionList from "./QuestionList";
 
 function App() {
   const [page, setPage] = useState("List");
+  function handleSubmit() {
+    setPage("List")
+  }
 
   return (
     <main>
